@@ -10,6 +10,15 @@ public class User {
     private String name;
     private Integer number;
     private Integer age;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public Integer getId() {
         return id;
